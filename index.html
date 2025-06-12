@@ -17,7 +17,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      font-family: Inter;
+      font-family: Inter, sans-serif;
       font-weight: 400;
       margin: 0;
       height: 100vh;
@@ -48,7 +48,6 @@
       font-weight: 700;
       font-size: 22px;
       margin-bottom: 0px;
-
     }
     button{
       margin-bottom:15px ;
@@ -59,18 +58,33 @@
       border-radius: 7px;
       width: 100%;
       font-weight: 700;
-      font-family: Inter;
+      font-family: Inter, sans-serif;
+      cursor: pointer;
     }
     .description{
       color: hsl(0, 1%, 66%);
       font-size: 14px;
       margin-bottom: 25px ;
+      text-align: center;
+    }
+    .ad-container {
+      width: 100%;
+      height: 90px; /* set height to something reasonable */
+      margin-bottom: 20px;
+      overflow: hidden;
+      background-color: transparent;
+    }
+    .ad-container iframe {
+      width: 100%;
+      height: 100%;
+      border: 0;
+      background-color: transparent;
     }
   </style>
 </head>
 <body >
   <div class="main">
-    <img src="assets/images/avatar-jessica.jpeg">
+    <img src="assets/images/avatar-jessica.jpeg" alt="Jessica Randall">
     <p class="name">Jessica Randall</p>
     <p class="address">London, United Kingdom</p>
     <p class="description">"Front-end developer and avid reader."</p>
@@ -80,9 +94,131 @@
     <button>Linkedin</button>
     <button>Twitter</button>
     <button>Instagram</button>
+
+    <div class="ad-container">
+      <iframe data-aa='2398285' src='//acceptable.a-ads.com/2398285' 
+        style='border:0px; padding:0; width:100%; height:100%; overflow:hidden; background-color: transparent;' 
+        scrolling="no" 
+        frameborder="0"
+        allowtransparency="true">
+      </iframe>
+    </div>
   
     <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener noreferrer">Frontend Mentor</a>. 
+      Coded by <a href="#">Vimonnn</a>.
+    </div>
+  </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Social links profile</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    body{
+      background-color: hsl(0, 0%, 8%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Inter, sans-serif;
+      font-weight: 400;
+      margin: 0;
+      height: 100vh;
+    }
+    .main{
+      background-color: hsl(0, 0%, 12%);
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column ;
+      padding: 40px;
+      align-items: center;
+      width: 300px;
+    }
+    .address{
+      color: hsl(75, 94%, 57%);
+      margin-top: none;
+      font-weight: 600;
+      font-size: small;
+    }
+    img{
+      border-radius:50% ;
+      max-width: 100px;
+      height: auto;
+    }
+    .name{
+      color: white;
+      font-weight: 700;
+      font-size: 22px;
+      margin-bottom: 0px;
+    }
+    button{
+      margin-bottom:15px ;
+      padding: 15px;
+      color: white;
+      background-color: hsl(0, 0%, 20%);
+      border: none;
+      border-radius: 7px;
+      width: 100%;
+      font-weight: 700;
+      font-family: Inter, sans-serif;
+      cursor: pointer;
+    }
+    .description{
+      color: hsl(0, 1%, 66%);
+      font-size: 14px;
+      margin-bottom: 25px ;
+      text-align: center;
+    }
+    .ad-container {
+      width: 100%;
+      height: 90px; /* set height to something reasonable */
+      margin-bottom: 20px;
+      overflow: hidden;
+      background-color: transparent;
+    }
+    .ad-container iframe {
+      width: 100%;
+      height: 100%;
+      border: 0;
+      background-color: transparent;
+    }
+  </style>
+</head>
+<body >
+  <div class="main">
+    <img src="assets/images/avatar-jessica.jpeg" alt="Jessica Randall">
+    <p class="name">Jessica Randall</p>
+    <p class="address">London, United Kingdom</p>
+    <p class="description">"Front-end developer and avid reader."</p>
+
+    <button>GitHub</button>
+    <button>Frontend Mentor</button>
+    <button>Linkedin</button>
+    <button>Twitter</button>
+    <button>Instagram</button>
+
+    <div class="ad-container">
+      <iframe data-aa='2398285' src='//acceptable.a-ads.com/2398285' 
+        style='border:0px; padding:0; width:100%; height:100%; overflow:hidden; background-color: transparent;' 
+        scrolling="no" 
+        frameborder="0"
+        allowtransparency="true">
+      </iframe>
+    </div>
+  
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener noreferrer">Frontend Mentor</a>. 
       Coded by <a href="#">Vimonnn</a>.
     </div>
   </div>
